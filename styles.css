@@ -1,1 +1,31 @@
-/*  your css code here. If applicable */
+
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin: 30px auto;
+}
+.card img {
+    width: 100%;
+}
+.card h1 {
+    font-size: 24px;
+}
+.price {
+    font-size: 22px;
+    font-weight: bold;
+    color: green;
+}
+.description {
+    font-size: 16px;
+}
+.card button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
